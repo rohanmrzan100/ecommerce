@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body{
+  
+}
+
+
+
+.bg-primary{
+    background-color: #3B3C98;
+}
+.text-primary{
+    color: #3B3C98;
+}
+.border-primary{
+    border: solid 2px #3B3C98;
+}
