@@ -2,20 +2,31 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-body{
-  
+@layer utilities {
+  .highlight-white {
+    color: white;
+  }
+  .highlight-orange {
+    color: #f95706;
+  }
 }
 
+body {
+  background-color: #eeeeee;
+}
+.zindex{
+  z-index: 1000;
+}
+.bg-primary {
+  background-color: #25c2ff;
+}
+.text-primary {
+  color: #25c2ff;
+}
+.border-primary {
+  border: solid 2px #25c2ff;
+}
+.bg-grey {
+  background-color: #eeeeee;
+}
 
-
-.bg-primary{
-    background-color: #3B3C98;
-}
-.text-primary{
-    color: #3B3C98;
-}
-.border-primary{
-    border: solid 2px #3B3C98;
-}
